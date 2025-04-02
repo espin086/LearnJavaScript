@@ -50,6 +50,7 @@ var firstName = "JJ";
 firstLetterOfFirstName = firstName[0];
 console.log(firstLetterOfFirstName);
 
+// updating string characters
 var myStr = "Jello World";
 myStr[0] = "H"; //this will not work
 myStr = "Hello World";
@@ -60,3 +61,20 @@ console.log(myStr);
 var lastName = "Lovelace";
 var lastLetterOfLastName = lastName[lastName.length - 1];
 console.log(lastLetterOfLastName);
+
+//third to last character in a string
+var thirdToLastLetterOfLastName = lastName[lastName.length - 3];
+console.log(thirdToLastLetterOfLastName);
+
+// Creating a madlib, this is a function that takes 4 arguments and returns a string
+
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
+    var result = ""; //this is the result string that will be returned
+
+
+    result += "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
+    return result; //this is the result string that will be returned
+}
+
+sentence = wordBlanks("dog", "big", "ran", "quickly");
+console.log(sentence);
