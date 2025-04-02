@@ -44,3 +44,24 @@ var myDecimal = 0.0001;
 //multiplication and division of decimals
 var product = 2.5 * 2.0;
 console.log(product);
+
+var quotient = 4.4 / 2.0;
+console.log(quotient);
+
+//remainder
+var remainder = 11 % 3;
+console.log(remainder);
+
+//compound assignment with augmented addition
+a += 12;
+console.log(a);
+
+a -= 12;
+console.log(a);
+
+a *= 12;
+console.log(a);
+
+a /= 12;
+console.log(a);
+
