@@ -31,3 +31,10 @@ console.log(ourData);
 var ourArray = [["John", 23], ["cat", 2]];
 ourArray.push(["dog", 3]);
 console.log(ourArray);
+
+//shopping list
+var myList = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 12]];
+console.log(myList);
+
+
+
