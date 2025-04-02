@@ -159,5 +159,33 @@ var ourStr = "I come first. ";
 ourStr += "I come second.";
 console.log(ourStr);
 
+
+//adding strings with variables
+var a = "John";
+var b = "Doe";
+
+var ourStr = "Hello " + a + " " + b + "!";
+console.log(ourStr);
+
+//appending variables to strings
+var anAdjective = "awesome!";
+var ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+console.log(ourStr);
+
+//length of a string
+var firstNameLength = 0;
+var firstName = "JJ";
+
+
+firstNameLength = firstName.length;
+console.log(firstNameLength);
+
+//bracket notation to find the first character in a string
+var firstName = "JJ";
+firstLetterOfFirstName = firstName[0];
+console.log(firstLetterOfFirstName);
+
+
 ```
 
