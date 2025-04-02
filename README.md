@@ -258,4 +258,4 @@ console.log(ourArray);
 
 ```
 
-# Ended 47:12 in Video (start from there...)
+# Functions 52 minute mark
