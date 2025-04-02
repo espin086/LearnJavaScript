@@ -64,3 +64,39 @@ b=a; //assigning a value to a variable
 
 ```
 
+# Basic Math
+
+```javascript
+//basic math
+var sum = 10 + 10;
+console.log(sum);
+
+var difference = 45 - 33;
+console.log(difference);
+
+var product = 8 * 10;
+console.log(product);
+
+var quotient = 66/33;
+console.log(quotient);
+
+//incrementing and decrementing
+var myVar = 87;
+myVar++;
+console.log(myVar);
+
+myVar--;
+console.log(myVar);
+
+//decimal numbers
+var ourDecimal = 5.7;
+var myDecimal = 0.0001;
+
+//multiplication and division of decimals
+var product = 2.5 * 2.0;
+console.log(product);
+
+```
+
+
+
