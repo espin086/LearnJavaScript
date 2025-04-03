@@ -478,4 +478,4 @@ console.log(testLogicalOr(25));
 
 ```
 
-# Time Stamp in Video: 1 hr 28 minutes
+# Time Stamp in Video: 1 hr 33 minutes
