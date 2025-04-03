@@ -149,3 +149,66 @@ function testEqual(val) {
 }
 
 console.log(testEqual(12));
+
+// == is the equality operator
+// === is the strict equality operator 
+// the difference between the two is that the equality operator will convert the data types of the values being compared, while the strict equality operator will not
+
+
+// test strict equality
+function testStrict(val) {
+    if (val === 7) { //this is the strict equality operator
+        return "Equal";
+    }
+    return "Not Equal";
+}
+
+console.log(testStrict('7'));
+console.log(testStrict(7));
+
+// comparison with the inequality operator
+function testNotEqual(val) {
+    if (val != 99) { //this is the inequality operator
+        return "Not Equal";
+    }
+    return "Equal";
+}
+
+console.log(testNotEqual(97));
+
+
+ // test greater than or equal to
+ function testGreaterOrEqual(val) {
+    if (val >= 20) {
+        return "20 or Over";
+    }
+    if (val >= 10) {
+        return "10 or Over";
+    }
+    return "Less than 10";
+
+ }
+
+ console.log(testGreaterOrEqual(20));
+
+ // and operator
+
+ function testLogicalAnd(val) {
+    if (val <= 50 && val >= 25) { // && is the and operator which means both conditions must be true
+        return "Yes";
+    }
+    return "No";
+ }
+
+console.log(testLogicalAnd(25));
+
+// or operator
+
+function testLogicalOr(val) {
+    if (val < 10 || val > 20) { // || is the or operator which means at least one of the conditions must be true
+        return "Outside";
+    }
+    return "Inside";
+}
+
+console.log(testLogicalOr(25));
