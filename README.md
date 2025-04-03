@@ -477,3 +477,5 @@ function testLogicalOr(val) {
 console.log(testLogicalOr(25));
 
 ```
+
+# Time Stamp in Video: 1 hr 28 minutes
